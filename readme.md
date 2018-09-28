@@ -1,10 +1,12 @@
 # How to create an alias to login to tc.rnet?
 1. Edit the .bash_profile on terminal
+
    Type the following code:
 
     ```vim .bash_profile```
     
 2. Add the following alias
+
     Type the following code:
 
     ```alias OOO='ssh user@host'```
@@ -14,6 +16,7 @@
     ```alias TC='ssh rkry8@tc.rnet.missouri.edu'```
     
 3. Update the resource
+
     Type the following code:
 
     ```source ~/.bash_profile```
@@ -24,6 +27,7 @@
 
 # How to skip the verification to tc.rnet?
 1. Generate a ssh key on terminal
+
     Type the following code:
 
     ```ssh-keygen -t rsa```
@@ -33,6 +37,7 @@
 ![ssh-1](ssh-1.png)
 
 2. Upload the generated ssh key to tc.rnet
+
     Type the following code:
 
     ```ssh-copy-id -i ~/.ssh/mykey user@host```
@@ -51,6 +56,7 @@
 
 1. Copy this .vimrc file to your home directory.
 2. Update the source file
+
     Type the following code:
 
     ```source .vimrc```
