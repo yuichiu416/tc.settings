@@ -15,6 +15,8 @@
     
     ```alias TC='ssh rkry8@tc.rnet.missouri.edu'```
     
+    After you're done, save the file with :wq like you save other files
+    
 3. Update the resource
 
     Type the following code:
