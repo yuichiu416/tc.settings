@@ -58,16 +58,18 @@
 
 1. Copy this .vimrc file to your home directory
 	You can either:
-		(a)copy the content from my file, type "vim .vimrc" on terminal and paste, :wq to save
-		(b)download the file to your computer, use a software like FileZilla to upload to your home directory
+		
+	(a)copy the content from my file, type "vim .vimrc" on terminal and paste, :wq to save
+		
+	(b)download the file to your computer, use a software like FileZilla to upload to your home directory
 
 	The home directory refers to the default path when you log in to tc.rnet, when you type pwd it should show you: 
 
-```/home/pawprint``` 
+	```/home/pawprint``` 
 
-In my case:
+	In my case:
 
-```/home/rkry8```
+	```/home/rkry8```
 
 As the picture:
 
