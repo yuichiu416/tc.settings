@@ -72,7 +72,7 @@ What's inside the .vimrc:
     
 ![What's inside the .vimrc](example.png)
 
-#After everything is all set, let's give it a try!
+# After everything is all set, let's give it a try!
 
 Try editing any of the existing .c files, remove any of the closing parenthesis, leave insert mode, type :w for write and see if the editor did the auto indentation for you. 
 
