@@ -72,6 +72,18 @@ What's inside the .vimrc:
     
 ![What's inside the .vimrc](example.png)
 
-Try editing any of the existing .c files, remove any of the closing parenthesis, leave insert mode, type :w for write and see if the editor did the auto indentation for you. Next time when the indentation goes weird, you only need to put the missing parenthesis/brackets/curly braces back and type :w again, it will fix the indentation for you.
+Try editing any of the existing .c files, remove any of the closing parenthesis, leave insert mode, type :w for write and see if the editor did the auto indentation for you. 
+
+![example](auto-1.png)
+
+Next time when the indentation goes weird, you only need to put the missing parenthesis/brackets/curly braces back and type :w again, it will fix the indentation for you.
+
+![example](auto-2.png)
+
+![example](auto-3.png)
+
+Then it should go back to normal
+
+![example](auto-1.png)
 
 Leave a comment if the document isn't clear enough.
