@@ -5,11 +5,12 @@
 
     ```vim .bash_profile```
     
+    
 2. Add the following alias
 
     Type the following code in the .bash_profile file:
 
-    ```alias OOO='ssh user@host'```
+    **alias OOO='ssh user@host'**
     
     In my case:
     
@@ -34,15 +35,15 @@
 
     ```ssh-keygen -t rsa```
     
-###### *I personally don't worry about the other settings so you can leave blank for everything, keep hitting enter until you can type the next command*
+    **_I personally don't worry about the other settings so you can leave blank for everything, keep hitting enter until you can type the next command_**
 
 ![ssh-1](ssh-1.png)
 
-2. Upload the generated ssh key to tc.rnet
+2. Upload the generated public ssh key to tc.rnet
 
     Type the following code on terminal:
 
-    ```ssh-copy-id -i ~/.ssh/mykey user@host```
+    **ssh-copy-id -i ~/.ssh/mykey user@host**
     
     In my case: 
     
@@ -65,11 +66,11 @@
 
 	The home directory refers to the default path when you log in to tc.rnet, when you type pwd it should show you: 
 
-	```/home/pawprint``` 
+	**/home/pawprint**
 
 	In my case:
 
-	```/home/rkry8```
+	**/home/rkry8**
 
 As the picture:
 
