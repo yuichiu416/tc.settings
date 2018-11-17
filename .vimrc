@@ -22,4 +22,4 @@ set nowb
 filetype indent on
 set smartindent
 autocmd BufRead,BufWritePre *.c normal gg=G
-map <C-c> "+y<CR>swe
+map <C-c> "+y<CR>swe"
