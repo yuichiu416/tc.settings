@@ -108,3 +108,7 @@ Then it should go back to normal
 ![example](auto-1.png)
 
 Leave a comment if the document isn't clear enough.
+
+
+# Copies the contents of the id_rsa.pub file to your clipboard
+```clip < ~/.ssh/id_rsa.pub```
