@@ -111,4 +111,9 @@ Leave a comment if the document isn't clear enough.
 
 
 # Copy the contents of the id_rsa.pub file to your clipboard
-```cat < ~/.ssh/id_rsa.pub```
+
+`cat < ~/.ssh/id_rsa.pub`
+
+or
+
+`clip < ~/.ssh/id_rsa.pub
