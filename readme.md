@@ -110,5 +110,5 @@ Then it should go back to normal
 Leave a comment if the document isn't clear enough.
 
 
-# Copies the contents of the id_rsa.pub file to your clipboard
+# Copy the contents of the id_rsa.pub file to your clipboard
 ```cat < ~/.ssh/id_rsa.pub```
