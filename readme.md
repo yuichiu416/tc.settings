@@ -116,4 +116,4 @@ Leave a comment if the document isn't clear enough.
 
 or
 
-`clip < ~/.ssh/id_rsa.pub
+`clip < ~/.ssh/id_rsa.pub`
